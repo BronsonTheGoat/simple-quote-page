@@ -15,20 +15,45 @@ body {
 }
 
 .wrapper {
-  padding-top: 10rem;
+  padding-top: 5rem;
   width: 90%;
   margin: 0 auto;
   text-align: center;
 }
 
+@media (min-width: 768px){
+  .wrapper {
+    padding-top: 10rem;
+  }
+}
+
+@media (min-width: 1025px){
+  
+}
+
 .quote {
   font-family: Charmonman, sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
 }
+
+@media (min-width: 768px){
+  .quote {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1025px){}
 
 .author {
   font-family: Indie+Flower, serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: italic;
 }
 
+@media (min-width: 768px){
+  .author {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1025px){}
